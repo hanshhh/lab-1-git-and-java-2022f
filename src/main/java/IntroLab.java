@@ -4,7 +4,6 @@
  * You should read this file from top-to-bottom. Any tasks you are to complete
  * are labelled with TODO!
  */
-
 public class IntroLab {
 
     /**
