@@ -40,6 +40,9 @@ public class IntroLab {
      * Make sure you document your method properly!
      */
 
+
+
+
     /**
      * An example method that calls on printLabMessage.
      */
@@ -48,9 +51,20 @@ public class IntroLab {
                 "Welcome to CSC207!");
     }
 
+    /**
+     * An example method that calls on printLabMessage.
+     */
+    public static String zhanwenq() {
+        return printLabMessage("Hello", "Wenqi Zhan", true,
+                "Nice to meet you!");
+    }
+
+
+
 
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
+        System.out.println(zhanwenq());
 
         /* TODO: Add a call to the method you wrote in this main method,
          *        and print the results of it.
